@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+main{
+    background-color: rgba(224, 235, 235, 0.479);
+    width: 500px;
+    margin: 20px auto;
+    padding: 8px 12px;
+}
+
+main h1{
+    text-align: center;
+}
+
+.convertArea{
+    margin-top: 20px;
+}
+
+.firstCurrency{
+    margin: 10px 0;
+}
+
+.firstCurrency input, .secondCurrency input{
+    border: 1px solid lightgreen;
+    outline: none;
+    padding: 3px 7px;
+}
+
+.secondCurrency input{
+    display: none;
+}
+
+.firstCurrency select, .secondCurrency select{
+    border: 1px solid lightgreen;
+    outline: none;
+    padding: 3px 7px;
+    width: 100px;
+}
+
+main button{
+    margin-bottom: 10px;
+    cursor: pointer;
+    outline: none;
+    border: 1px solid lightgray;
+    padding: 6px 24px;
+}
